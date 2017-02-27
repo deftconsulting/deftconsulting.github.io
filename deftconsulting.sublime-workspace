@@ -1,0 +1,837 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"os",
+				"ospf_area"
+			],
+			[
+				"vla",
+				"vlan_id"
+			],
+			[
+				"std",
+				"stdout_lines"
+			],
+			[
+				"show_tech_",
+				"show_tech_output"
+			],
+			[
+				"show_te",
+				"show_tech_output"
+			],
+			[
+				"in",
+				"inventory_hostname"
+			],
+			[
+				"show_",
+				"show_version_output"
+			],
+			[
+				"inve",
+				"inventory_hostname"
+			],
+			[
+				"Med",
+				"Media_Prev"
+			],
+			[
+				"MED",
+				"Media_Prev"
+			],
+			[
+				"clie",
+				"client_addr"
+			],
+			[
+				"leaf",
+				"leafref"
+			],
+			[
+				"star",
+				"starts_with"
+			],
+			[
+				"sess",
+				"session_end"
+			],
+			[
+				"host",
+				"host_data"
+			],
+			[
+				"sys",
+				"system\tfunction"
+			],
+			[
+				"nmap",
+				"nmap_obj\tparam"
+			],
+			[
+				"sele",
+				"selected_host\tstatement"
+			],
+			[
+				"match",
+				"matched_hostnames\tstatement"
+			],
+			[
+				"M",
+				"MULTILINE\tstatement"
+			],
+			[
+				"sear",
+				"search_str\tstatement"
+			],
+			[
+				"matc",
+				"matched_hostnames\tstatement"
+			],
+			[
+				"api",
+				"api_token\tstatement"
+			],
+			[
+				"par",
+				"parse_args\tfunction"
+			],
+			[
+				"backg",
+				"background-image"
+			],
+			[
+				"install_",
+				"install_nms"
+			],
+			[
+				"apa",
+				"apache_config"
+			],
+			[
+				"libre",
+				"libre_db_name"
+			],
+			[
+				"lib",
+				"libre_db_name"
+			],
+			[
+				"FACTER_",
+				"FACTER_LIBRE_DB_USER"
+			],
+			[
+				"insta",
+				"install_type"
+			],
+			[
+				"CLI",
+				"CLIENT_DATA"
+			],
+			[
+				"find",
+				"find_objects"
+			],
+			[
+				"find_",
+				"find_references\tfunction"
+			],
+			[
+				"pointer",
+				"pointer_objects"
+			],
+			[
+				"objec",
+				"object_list\tstatement"
+			],
+			[
+				"point",
+				"pointer_type\tforstmt"
+			],
+			[
+				"obj",
+				"object_list"
+			],
+			[
+				"obje",
+				"object_list\tstatement"
+			],
+			[
+				"ojb",
+				"object_list\tparam"
+			],
+			[
+				"read",
+				"read_in_file\tfunction"
+			],
+			[
+				"Mana",
+				"ManagerLN"
+			],
+			[
+				"Manage",
+				"ManagerFN"
+			],
+			[
+				"Emai",
+				"EmailAddress"
+			],
+			[
+				"New",
+				"NewUserForm"
+			],
+			[
+				"First",
+				"FirstName"
+			],
+			[
+				"Ma",
+				"ManagerLN"
+			],
+			[
+				"Manag",
+				"ManagerFN"
+			],
+			[
+				"User",
+				"Username"
+			],
+			[
+				"Ema",
+				"EmailAddress"
+			],
+			[
+				"Last",
+				"LastName"
+			],
+			[
+				"Fir",
+				"FirstName"
+			],
+			[
+				"Temp",
+				"TemplateUser"
+			],
+			[
+				"Wri",
+				"Write-Host"
+			],
+			[
+				"Man",
+				"Mandatory"
+			],
+			[
+				"Para",
+				"Parameter"
+			],
+			[
+				"ZO",
+				"ZONEFILE"
+			],
+			[
+				"device",
+				"device_model\tstatement"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 127.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pretty",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"xml",
+				"Indent XML"
+			],
+			[
+				"scheme",
+				"ColorSchemeSelector: Next Color Scheme"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"prett",
+				"Pretty JSON: Format (Pretty Print) JSON"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"vagr",
+				"Anaconda: Vagrant Status"
+			],
+			[
+				"ana",
+				"Anaconda: Vagrant Status"
+			]
+		],
+		"width": 464.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/jccurtis/Google Drive/Deft Consulting Master Folder/website_code/deftconsulting.github.io"
+	],
+	"file_history":
+	[
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/DeltaAirlines/f5_bom_not_final.txt",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/SeaWorld/Seaworld F5 DDW Notes.txt",
+		"/C/Users/jccurtis/Google Drive/SecureCRT_Config_LATEST/Sessions/__FolderData__.ini",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/wlc_debug.expect",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/wlc_debug.expect.sh",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/Harris/notes for work to be done.txt",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/SarasotaManateeAirport/SSH configs and changing admin user password.txt",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/CatalinaMarketing/SFP totals for new F5 deployment.txt",
+		"/C/Users/jccurtis/Downloads/MPLSConfigGen/roles/pe_ce/templates/pe_ce.j2",
+		"/C/Users/jccurtis/Downloads/MPLSConfigGen/site.yml",
+		"/C/Users/jccurtis/Downloads/MPLSConfigGen/host_vars/testrouter.yml",
+		"/C/Users/jccurtis/Downloads/MPLSConfigGen/host_vars/boc71bc125art7101.yml",
+		"/C/Users/jccurtis/Downloads/MPLSConfigGen/host_vars/boc47ed104rt4701.yml",
+		"/C/Users/jccurtis/Downloads/MPLSConfigGen/host_vars/boc22vss6840-1.yml",
+		"/C/Users/jccurtis/Downloads/MPLSConfigGen/group_vars/all.yml",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/site_information.txt",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/SeaWorld/legacy_prod_vip_pool_config-COMBINED.txt",
+		"/C/Users/jccurtis/AppData/Local/Temp/7zO49FFDB14/bigip_base.conf",
+		"/C/Users/jccurtis/Documents/_Presidio_Documents/code and command snippets/F5/irule_perf_mon.tcl",
+		"/C/Users/jccurtis/Documents/_Presidio_Documents/code and command snippets/F5/cron job for backing up f5 ucs config.txt",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/SeaWorld/legacy_prod_vip_config.txt",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/SeaWorld/legacy_prod_pool_config.txt",
+		"/C/Users/jccurtis/Documents/pension_notes.txt",
+		"/C/Users/jccurtis/Downloads/boc22vssrt122#show platform hardware capacity.txt",
+		"/C/Users/jccurtis/Documents/vagrant_projects/devnet_class/Vagrantfile",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/_todo_list.txt",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/Neogenomics/EIGRP Stub Site Feature/config changes needed/TP2-WAN.config",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/Neogenomics/EIGRP Stub Site Feature/config changes needed/AV1-INET.config",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/Neogenomics/EIGRP Stub Site Feature/config changes needed/AV1-MPLS.config",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/Neogenomics/EIGRP Stub Site Feature/config changes needed/WS1-WAN.config",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/Neogenomics/EIGRP Stub Site Feature/config changes needed/FR1-WAN.config",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/Neogenomics/EIGRP Stub Site Feature/config changes needed/IR1-WAN.config",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/Neogenomics/EIGRP Stub Site Feature/config changes needed/NA1-WAN.config",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/Neogenomics/EIGRP Stub Site Feature/config changes needed/FM1-WAN.config",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/Neogenomics/EIGRP Stub Site Feature/config changes needed/HU1-WAN.config",
+		"/C/Users/jccurtis/Downloads/ansible_playbooks/offline_config_generator/roles/pe_ce/tasks/main.yml",
+		"/C/Users/jccurtis/Downloads/ansible_playbooks/offline_config_generator/site.yml",
+		"/C/Users/jccurtis/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.Outlook/O0GYE6MO/829-ftx2029805u-confg",
+		"/C/Users/jccurtis/Downloads/SwitchLog_safe.py",
+		"/C/Users/jccurtis/AppData/Local/Temp/7zO0DE719A0/leia-12-54PM-config-NonMSDP.txt",
+		"/C/Users/jccurtis/AppData/Local/Temp/7zO0DE67F56/luke-12-54PM-config-NonMSDP.txt",
+		"/C/Users/jccurtis/AppData/Local/Temp/7zO0DECFF66/luke-admin-12-54PM-config-NonMSDP.txt",
+		"/C/Users/jccurtis/AppData/Local/Temp/7zO0DEAF776/maggie-12-54PM-config-NonMSDP.txt",
+		"/C/Users/jccurtis/AppData/Local/Temp/7zO0DE7B6D1/ralph.txt",
+		"/C/Users/jccurtis/AppData/Local/Temp/7zO0DE712F1/luke-12-54PM-config-NonMSDP.txt",
+		"/C/Users/jccurtis/AppData/Local/Temp/7zO0DE00A40/leia-admin-12-54PM-config-NonMSDP.txt",
+		"/C/Users/jccurtis/AppData/Local/Temp/7zO41919045/luke-01-07PM-config-MSDP.txt",
+		"/C/Users/jccurtis/AppData/Local/Temp/7zO419471B0/delta9-01-07PM-config-MSDP.txt",
+		"/C/Users/jccurtis/AppData/Local/Temp/7zO419790A3/anari-01-07PM-config-MSDP.txt",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/Arise/F5 Deployment/miami_AFM_LTM_maintenance_MOP.txt",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/VPLS_autodiscovery_TAC_CASE/boc47ed104rt4701_show_commands.txt",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/VPLS_autodiscovery_TAC_CASE/boc22vss6840-1_show_commands.txt",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/Arise/F5 Deployment/miami_cutover_maintenance/MIA-INET-ASR1001X-1-pre-maintenance-10-28-16-running-config.txt",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/Arise/F5 Deployment/miami_cutover_maintenance/MIA-INET-ASR1001X-2-post-maintenance-10-28-16-running-config.txt",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/Arise/F5 Deployment/miami_cutover_maintenance/MIA-INET-ASR1001X-1-post-maintenance-10-28-16-running-config.txt",
+		"/C/Users/jccurtis/Downloads/arise_nmap_scan.xml",
+		"/C/Users/jccurtis/Downloads/arise_nmap_scan.nmap",
+		"/C/Users/jccurtis/Downloads/arise_nmap_scan.gnmap",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/boc47ed104rt4701_show module.txt",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/boc47ed104rt4701_show run.txt",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/Arise/F5 Deployment/miami_cutover_maintenance/MIA-INET-ASR1001X-2-pre-maintenance-10-28-16-running-config.txt",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/SarasotaManateeAirport/site_information.txt",
+		"/C/Users/jccurtis/Downloads/jumper/group_vars/all.yml",
+		"/C/Users/jccurtis/Downloads/jumper/jumper.retry",
+		"/C/Users/jccurtis/Downloads/ansible_playbooks/offline_config_generator/group_vars/all.yml",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/pull_tac_data/site.yml",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/pull_tac_data/templates/show_tech_xr.j2",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/pull_tac_data/group_vars/all.yml",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/pull_tac_data/group_vars/ios.yml",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/pull_tac_data/host_vars/fauhousing3850-01.yml",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/pull_tac_data/group_vars/iosxe.yml",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/pull_tac_data/group_vars/iosxr.yml",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/pull_tac_data/host_vars/dolittle.yml",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/pull_tac_data/host_vars/heartofgold.yml",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/pull_tac_data/host_vars/boc47ed104rt4701.yml",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/pull_tac_data/host_vars/boc22vss6840-1.yml",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/pull_tac_data/host_vars/boc22asr1001-rr1.yml",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/pull_tac_data/host_vars/boc22asr1001-rr2.yml",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/pull_tac_data/templates/show_tech.j2",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/pull_tac_data/templates/show_intf_status.j2",
+		"/C/Users/jccurtis/Downloads/987654321/dolittle/show_version.txt",
+		"/C/Users/jccurtis/Downloads/987654321/dolittle/show_log.txt",
+		"/C/Users/jccurtis/Downloads/681137451/boc22vss6840-1/show_log.txt",
+		"/C/Users/jccurtis/Downloads/681137451/boc22vss6840-1/show_interface_status.txt",
+		"/C/Users/jccurtis/Downloads/681137451/boc22asr1001-rr1/show_inventory.txt",
+		"/C/Users/jccurtis/Downloads/data/tac_data/681137451/boc22asr1001-rr1/show_bgp_neigh.txt",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/pull_tac_data/templates/show_run.j2",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/pull_tac_data/templates/show_log.j2",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/pull_tac_data/templates/show_mpls_ldp_neigh.j2",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/pull_tac_data/templates/show_bgp_neigh.j2",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/pull_tac_data/templates/show_version.j2",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/pull_tac_data/templates/show_ospf_neigh.j2",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/pull_tac_data/templates/show_inventory.j2",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/pull_tac_data/group_vars/pe_routers.yml",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/pull_tac_data/group_vars/p_routers.yaml",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/offline_config_generator/group_vars/all.yml",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/offline_config_generator/host_vars/fauhousing3850-01.yml",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/offline_config_generator/host_vars/boc47ed104rt4701.yml",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/offline_config_generator/roles/pe_ce/tasks/main.yml",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/offline_config_generator/site.yml",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/offline_config_generator/roles/pe_ce/templates/pe_ce.j2",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/ansible_playbooks/offline_config_generator/output_configs/boc47ed104rt4701/boc47ed104rt4701.txt",
+		"/C/Users/jccurtis/AppData/Roaming/Sublime Text 3/Packages/SFTP/SFTP.sublime-settings",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/FAU/MPLS Core Project/napalm_project_files/sftp-config.json",
+		"/C/Users/jccurtis/Downloads/SeaWorld_LB_Config - Copy/b7-lnsseaftc_bigip.conf",
+		"/C/Users/jccurtis/Downloads/SeaWorld_LB_Config - Copy/b5-pcnseaftc_bigip.conf",
+		"/C/Users/jccurtis/Downloads/SeaWorld_LB_Config - Copy/b3-pcnseaftc_bigip.conf",
+		"/C/Users/jccurtis/Downloads/SeaWorld_LB_Config - Copy/b1-lnsseaftc_bigip.conf",
+		"/C/Users/jccurtis/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.sublime-settings",
+		"/C/users/jccurtis/appdata/local/temp/sublime-sftp-browse-1476799295/napalm.fau.edu/data/ansible_playbooks/offline_config_generator/roles/pe_ce/templates/pe_ce.j2",
+		"/C/users/jccurtis/appdata/local/temp/sublime-sftp-browse-1476799692/napalm.fau.edu/data/ansible_playbooks/offline_config_generator/roles/pe_ce/tasks/main.yml",
+		"/C/Users/jccurtis/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/napalm.fau.edu",
+		"/C/users/jccurtis/appdata/local/temp/sublime-sftp-browse-1476799306/napalm.fau.edu/data/ansible_playbooks/offline_config_generator/group_vars/all.yml",
+		"/C/users/jccurtis/appdata/local/temp/sublime-sftp-browse-1476799538/napalm.fau.edu/data/ansible_playbooks/offline_config_generator/host_vars/boc47ed104rt4701.yml",
+		"/C/users/jccurtis/appdata/local/temp/sublime-sftp-browse-1476799222/napalm-fau.edu/data/ansible_playbooks/offline_config_generator/group_vars/all.yml",
+		"/C/users/jccurtis/appdata/local/temp/sublime-sftp-browse-1476799171/napalm-fau.edu/data/ansible_playbooks/offline_config_generator/roles/pe_ce/templates/pe_ce.j2",
+		"/C/Users/jccurtis/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/napalm-fau.edu",
+		"/C/users/jccurtis/appdata/local/temp/sublime-sftp-browse-1476459666/viper.operational.io/home/ccurtis/ansible_playbooks/iwan_config_generator/roles/branch1/tasks/main.yml",
+		"/C/users/jccurtis/appdata/local/temp/sublime-sftp-browse-1476456313/viper.operational.io/home/ccurtis/ansible_playbooks/iwan_config_generator/host_vars/TPA_WAN_RTR1.yml",
+		"/C/users/jccurtis/appdata/local/temp/sublime-sftp-browse-1476456431/viper.operational.io/home/ccurtis/ansible_playbooks/iwan_config_generator/roles/branch1/templates/branch1.j2",
+		"/C/users/jccurtis/appdata/local/temp/sublime-sftp-browse-1476456343/viper.operational.io/home/ccurtis/ansible_playbooks/iwan_config_generator/group_vars/all.yml",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/Neogenomics/EIGRP Stub Site Feature/original configs/TP2-WAN.config",
+		"/C/Users/jccurtis/AppData/Roaming/Sublime Text 3/Packages/User/sftp_servers/viper.networkassassin.com",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/Neogenomics/EIGRP Stub Site Feature/original configs/IR1-WAN.config",
+		"/C/Users/jccurtis/Documents/_Presidio_Clients/_ACTIVE_PROJECTS/Neogenomics/EIGRP Stub Site Feature/original configs/NA1-WAN.config",
+		"//wlan0.pi.operational.io/configs/nes/emulators.cfg",
+		"//wlan0.pi.operational.io/configs/all/retroarch.cfg",
+		"//wlan0.pi.operational.io/configs/all/runcommand-launch-dialog.cfg"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"^ .+\\n",
+			"”",
+			"“",
+			"10.141.47.215",
+			"10.141.47.214",
+			"10.141.47.213",
+			"10.141.47.212",
+			"10.141.47.211",
+			"10.141.47.210",
+			"10.141.47.151",
+			"10.141.47.150",
+			"10.141.47.139",
+			"WOD_HTTP200_Mon",
+			"pool_CORPPCNAPI_https",
+			"pool_pcnapp_prod_https",
+			"pool_pcnapp_prod_http",
+			"pool_pcnweb_prod_https",
+			"pool_pcnweb_prod_http",
+			"10.141.47.212",
+			"10.141.47.211",
+			"10.141.47.210",
+			"10.141.47.151",
+			"10.141.47.139",
+			"10.141.47.150",
+			"10.141.47.139",
+			"10.141.28.215",
+			"10.141.28.214",
+			"10.141.28.114",
+			"10.141.28.113",
+			"10.141.28.215",
+			"10.141.28.214",
+			".+vs-index.+\\n",
+			"Pool_ftcseap",
+			".+state .+\\n",
+			"destination 10\\.151\\.16\\.",
+			"Pool_ftcseap",
+			"VIP_+SEAP",
+			"/Common/",
+			"SAMM",
+			"10.151.16.",
+			"POOL_EBSPROD_50004",
+			"ftc",
+			"Pool_ftc",
+			"Pool_seap_8443",
+			"ftc",
+			"10.141.",
+			"10.141.13.18",
+			"10.141.13.16",
+			"10.141.13.44",
+			"ftc",
+			"10.141.",
+			"10.141.17.14",
+			"10.141.17.13",
+			"10.141.28.43",
+			"10.141.28.42",
+			"ltm node /Common/10.141.28.42",
+			"10.141.28.183",
+			"10.141.28.180",
+			"10.141.28.179",
+			"10.141.28.178",
+			"fa_",
+			"10.141.64.14",
+			"10.141.64.13",
+			"10.141.64.12",
+			"^(\\S+)\\s+(\\S+)$",
+			"10\\.141\\.",
+			"10.141.13.24",
+			"10.141.13.23",
+			"10.141.13.35",
+			"10.141.13.24",
+			"10.141.13.25",
+			"10.141.13.23",
+			"10.141.13.22",
+			"10.141.13.20",
+			"10.141.13.26",
+			"10.141.13.21",
+			"10.141.27.201",
+			"10.141.27.187",
+			"10.141.27.205",
+			"10.141.27.202",
+			"10.141.28.45",
+			"10.141.28.44",
+			"10.141.28.218",
+			"10.141.27.31",
+			"10.141.\\d+\\.\\d+",
+			"10.141.27.215",
+			"10.141.27.214",
+			"10.141.28.206",
+			"10.141.28.205",
+			"10.141.27.32",
+			"10.141.\\d+\\.\\d+",
+			"10.141.\\d",
+			"10.141.27.201",
+			"10.141.27.187",
+			"10.141.28.205",
+			"10.141.27.32",
+			"10.141.27.205",
+			"10.141.27.202",
+			"10.141.28.45",
+			"10.141.28.44",
+			"10.141.28.222",
+			"10.141.28.221",
+			"10.141.28.220",
+			"10.141.28.219",
+			"10.141.28.218",
+			"10.141.27.31",
+			"10.141.27.215",
+			"10.141.27.214",
+			"10.141.28.206",
+			"10.141.28.202",
+			"10.141.28.201",
+			".+description .+\\n",
+			"^Clay_Curtis.+\\n",
+			"^(?!!).+\\n",
+			"^\\s+(\\d+\\.\\d+\\.\\d+\\.\\d+).+",
+			".+state .+\\n",
+			"nam.int.local",
+			".+vs-index .+\\n",
+			"^(\\S+)\\s+(\\S+)$",
+			"^(\\S+)\\s+(\\S+)\\s+(\\S+)$",
+			"^(\\S+)\\s+(\\S+)$",
+			"^(\\S+)\\s+(\\S+)\\s+(\\S+)$",
+			"^(\\S+)\\s+(\\S+)$",
+			"10.141.13.31",
+			"173.227.205.",
+			"173.227.205.253",
+			"173.227.205.252",
+			"173.227.205.254"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"\"",
+			"10.151.50.212",
+			"10.151.50.211",
+			"10.151.50.210",
+			"10.151.50.201",
+			"ftcseapcnp2004x",
+			"10.151.50.203",
+			"ftcseapcnp2007x",
+			"10.151.50.200",
+			"ftcseapcnp2002x",
+			"10.151.52.71",
+			"ftcseapcnp8502x",
+			"10.151.52.70",
+			"ftcseapcnp8501x",
+			"ftcseapcnp8500x",
+			"10.151.52.69",
+			"10.151.48.174",
+			"seap2070",
+			"10.151.48.173",
+			"",
+			"destination 10.151.48.",
+			"",
+			"Pool_",
+			"10.151.16.18",
+			"10.151.16.16",
+			"10.151.16.44",
+			"10.151.51.11",
+			"seap2276",
+			"10.151.51.10",
+			"seap2275",
+			"10.151.52.101",
+			"seap2268b",
+			"10.151.52.100",
+			"seap2268a",
+			"ltm node /Common/seap2268a",
+			"10.151.50.73",
+			"10.151.50.72",
+			"10.151.50.71",
+			"10.151.50.70",
+			"10.151.52.7",
+			"seap2043",
+			"10.151.52.6",
+			"seap2042",
+			"10.151.52.5",
+			"seap2041",
+			"net self \\2_FLOAT {\n    address \\1/27\n    floating enabled\n    traffic-group traffic-group-1\n    unit 1\n    vlan \\2\n}",
+			"net self \\2_SELF {\n    address \\1/27\n    traffic-group traffic-group-local-only\n    vlan \\2\n}",
+			"10.151.128.166",
+			"stlabtpwebt101",
+			"10.151.48.202",
+			"stlabtpwebp104",
+			"10.151.48.201",
+			"stlabtpwebp103",
+			"10.151.129.142",
+			"sead8503",
+			"10.151.48.199",
+			"stlabtpwebp101",
+			"",
+			"!!\\1",
+			"",
+			"net self \\2_FLOAT {\n    address \\1/28\n    floating enabled\n    traffic-group traffic-group-1\n    unit 1\n    vlan \\2\n}",
+			"net self \\2_SELF {\n    address \\1/25\n    traffic-group traffic-group-local-only\n    vlan \\2\n}",
+			"net self \\2_FLOAT {\n    address \\1/28\n    floating enabled\n    traffic-group traffic-group-1\n    unit 1\n    vlan \\2\n}",
+			"net self \\2_SELF {\n    address \\1/25\n    traffic-group traffic-group-local-only\n    vlan \\2\n}",
+			"net vlan \\2 {\n    interfaces {\n        \\3 {\n            tag-mode service\n            tagged\n        }\n    }\n    tag \\1\n}",
+			"net self \\2_FLOAT {\n    address \\1/28\n    floating enabled\n    traffic-group traffic-group-1\n    unit 1\n    vlan \\2\n}",
+			"net self \\2_SELF {\n    address \\1/25\n    traffic-group traffic-group-local-only\n    vlan \\2\n}",
+			"net self \\2_FLOAT {\n    address \\1/28\n    floating enabled\n    traffic-group traffic-group-1\n    unit 1\n    vlan \\2\n}",
+			"net self \\2_SELF {\n    address \\1/25\n    traffic-group traffic-group-local-only\n    vlan \\2\n}",
+			"net vlan \\2 {\n    interfaces {\n        \\3 {\n            tag-mode service\n            tagged\n        }\n    }\n    tag \\1\n}",
+			"10.151.16.31",
+			"173.227.210.253",
+			"173.227.210.252",
+			"173.227.210.254",
+			"10.151.144.104",
+			"10.151.144.103",
+			"10.151.144.102",
+			" 10.151.144.101",
+			"10.151.144.100",
+			" 10.151.144.99",
+			"",
+			"net self \\2_FLOAT {\n    address \\1/28\n    floating enabled\n    traffic-group traffic-group-1\n    unit 1\n    vlan \\2\n}",
+			"net self \\2_SELF {\n    address \\1/25\n    traffic-group traffic-group-local-only\n    vlan \\2\n}",
+			"net vlan \\2 {\n    interfaces {\n        \\3 {\n            tag-mode service\n            tagged\n        }\n    }\n    tag \\1\n}",
+			"net self \\2_FLOAT {\n    address \\1/28\n    floating enabled\n    traffic-group traffic-group-1\n    unit 1\n    vlan \\2\n}",
+			"net self \\2_SELF {\n    address \\1/25\n    traffic-group traffic-group-local-only\n    vlan \\2\n}",
+			"net self \\2_FLOAT {\n    address \\1/28\n    floating enabled\n    traffic-group traffic-group-1\n    unit 1\n    vlan \\2\n}",
+			"net self \\2_SELF {\n    address \\1/25\n    traffic-group traffic-group-local-only\n    vlan \\2\n}",
+			"net vlan \\2 {\n    interfaces {\n        \\3 {\n            tag-mode service\n            tagged\n        }\n    }\n    tag \\1\n}",
+			"net self \\2_FLOAT {\n    address \\1/26\n    floating enabled\n    traffic-group traffic-group-1\n    unit 1\n    vlan \\2\n}",
+			"net self \\2_SELF {\\n    address \\1/26\\n    traffic-group traffic-group-local-only\\n    vlan \\2\\n}",
+			"net vlan \\2 {\\n    interfaces {\\n        dmz_trunk {\\n            tag-mode service\\n            tagged\\n        }\\n    }\\n    tag \\1\\n}",
+			"\\1",
+			"\\1,\\2,\\3",
+			"\\1address 10.151.176.16",
+			"\\1SEAP2206",
+			"\\1address 10.151.176.13",
+			"\\1SEAP2203",
+			"\\1address 10.151.176.85",
+			"\\1SEAT2200",
+			"SEAT2200",
+			"ltm node \\1 {\\n    address \\2\\n}",
+			"\\1,\\2",
+			"\\1,\\2,\\3",
+			"\\1,\\2",
+			"\\1,\\2,\\3",
+			",\\1,",
+			",\\1",
+			"\\1",
+			",",
+			"",
+			"\\1\\4\\3\\2",
+			"interface \\1\\n sw access vlan 991",
+			"\\n",
+			"interface \\1\\n sw access vlan 991",
+			"\\n",
+			"interface \\1\\n sw access vlan 991\\n",
+			"interface \\1\\n sw access vlan 991",
+			"interface \\1\\n sw trunk allow vlan add 991",
+			"show run int \\1",
+			"interface \\1\\n sw trunk allow vlan add 991",
+			"",
+			"- name: \"\\1\"\\n  description: \"\\2\"\\n  product_id: \"\\3\"\\n  vid: \"V02\"\\n  serial_number: \"\\5\"\\n",
+			"- name: \"\\1\"\\n  description: \"\\2\"\\n  product_id: \"\\3\"\\n  vid: \"\\vid\"\\n  serial_number: \"\\5\"\\n",
+			"- name: \"\\1\"\\n  description: \"\\2\"\\n  product_id: \"\\3\"\\n  vid: \"\\VID\"\\n  serial_number: \"\\5\"\\n",
+			"- name: \"\\1\"\\n  description: \"\\2\"\\n  product_id: \"\\3\"\\n  vid: \"\\4\"\\n  serial_number: \"\\5\"\\n",
+			"\\1"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.anaconda_vagrant":
+	{
+		"height": 124.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 124.0
+	},
+	"pinned_build_system": "",
+	"project": "deftconsulting.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 220.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
