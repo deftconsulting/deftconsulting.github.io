@@ -2,6 +2,6 @@ _site/
 .sass-cache/
 .jekyll-metadata
 
-.sublime-project
-.sublime-workspace
 *.sublime-workspace
+
+*.sublime-project
